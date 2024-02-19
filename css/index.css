@@ -1,0 +1,129 @@
+.discount{
+    background-color: #92c1e9;
+    text-align: center;
+    padding: 11px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -8px;
+}
+.discount a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.logo{
+    width: 10%;
+    margin-left: 15px;
+}
+header{
+    display: flex;
+}
+.nav-bar{
+    list-style: none;
+    width: 1000px;
+    height: 73px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-bar li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.new{
+    font-weight: 750;
+}
+.best{
+    font-weight: 750;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+main img{
+    width: 100%;
+    margin-top: -20px;
+}
+.cat-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.cat-text a{
+    color: black;
+    font-weight: 900;
+    font-size: larger;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 80%;
+    margin-left: 50px;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-weight: 800;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    margin-top: 50px;
+    margin-left: 200px;
+    width: 40%;
+}
+.h3p{
+    display: flex;
+    flex-flow: column;
+    margin-left: 900px;
+    margin-top: -400px;
+}
+.h3p h3{
+    color: #92c1e9;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 999;
+    width: 300px;
+}
+.h3p p{
+    width: 300px;
+    font-size: large;
+    text-align: center;
+}
+.but{
+    margin-left: 975px;
+}
+.but1{
+    background-color: black;
+    width: 150px;
+    height: 38px;
+    border-radius: 20px;
+}
+.but2{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 900;
+}
+.snoopy{
+    margin-top: 80px;
+}
+.collab{
+    font-size: xx-large;
+    font-weight: 900;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.dis{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
