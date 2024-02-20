@@ -19,6 +19,7 @@
 }
 header{
     display: flex;
+    
 }
 .nav-bar{
     list-style: none;
@@ -32,6 +33,20 @@ header{
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+.icons{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+
+}
+.icons li{
+margin-left: 50px;
+}
+.icons a{
+    color: black;
+    font-size: x-large;
 }
 .new{
     font-weight: 750;
@@ -51,6 +66,8 @@ main img{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-left: 50px;
+    margin-right: 50px6;
 }
 .cat-text a{
     color: black;
@@ -124,6 +141,316 @@ main img{
 }
 .dis{
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
+}
+.dis img{
     width: 100%;
+}
+
+.dis a{
+    width: 220px;
+    height: 150px;
+}
+.bac{
+    width: 90%;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+.bac img{
+    border-radius: 30px;
+}
+.tex{
+    margin-left: 450px;
+    margin-top: -200px;
+}
+.tex a{
+    text-decoration: none;
+}
+.tex p{
+    width: 500px;
+    font-size: xx-large;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.but3{
+    margin-left: 600px;
+    margin-top: -15px;
+}
+.but3 button{
+    background-color: #F87C56;
+    border-radius: 30px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+
+}
+.but3 a{
+    text-decoration: none;
+    color: black;
+}
+.bac2{
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+.bac2 img{
+    border-radius: 30px;
+}
+.tex2{
+    margin-left: 550px;
+    margin-top: -200px;
+}
+.tex2 a{
+    text-decoration: none;
+}
+.tex2 p{
+    width: 300px;
+    font-size: x-large;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+}
+.but4{
+    margin-left: 60px;
+}
+.but4 button{
+    background-color: #F87C56;
+    border-radius: 30px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+}
+.but4 a{
+    text-decoration: none;
+    color: black;
+}
+.bac3{
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+.bac3 img{
+    border-radius: 30px;
+    
+}
+.tex3{
+    margin-left: 500px;
+    margin-top: -200px;
+}
+.tex3 a{
+    text-decoration: none;
+}
+.tex3 p{
+    width: 400px;
+    font-size: x-large;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+.but5{
+    margin-left: 110px;
+}
+.but5 button{
+    background-color: #F87C56;
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+    height: 50px;
+    color: black;
+    font-size: medium;
+    font-weight: 700;
+}
+.but5 a{
+    text-decoration: none;
+    color: black;
+}
+.view{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.view a{
+    font-weight: 900;
+    font-size: x-large;
+    color: black;
+}
+.cards2{
+    display: flex;
+    margin-top: 30px;
+}
+.cards2 img{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 30px;
+}
+.card2 h3{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+.card2 p{
+    text-align: left;
+    margin-left: 40px;
+}
+.a{
+    color: #F87C56;
+    font-weight: 900;
+    font-size: x-large;
+    padding-left: 40px;
+    margin-top: -40px;
+}
+.card2 button{
+    margin-left: 150px;
+    background-color: #1BAE4B;
+    border: none;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+}
+.card2 a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
+.bac4{
+    width: 45%;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.bac4{
+    border-radius: 30px;
+}
+.tex4{
+    margin-left: 170px;
+    margin-top: -300px;
+}
+.tex4 a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+.tex4{
+    width: 500px;
+    font-size: x-large;
+    text-align: center;
+    width: 300px;
+}
+.dbut{
+    margin-left: 180px;
+}
+.but6{
+    background-color: #F87C56;
+    border: none;
+    border-radius: 30px;
+    width: 270px;
+    height: 40px;
+}
+.but6 a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;
+}
+.bac5{
+    width: 45%;
+    margin-left: 800px;
+    margin-top: -390px;
+}
+.bac5 img{
+    border-radius: 30px;
+}
+.tex5{
+    margin-left: 180px;
+    margin-top: -300px;
+}
+.tex5 a{
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+.tex5{
+    width: 300px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: none;
+}
+.dbut2{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.but7{
+    background-color: #F87C56;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+}
+.but7 a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    background-color: #92c1e9;
+    margin-top: 200px;
+    margin-left: -10px;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    list-style: none;
+    color: white;
+    font-size: large;
+}
+.bb{
+    font-weight: 900;
+    font-size: x-large;
+}
+.inp{
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
+.sumb{
+    border: none;
+    border-radius: 3px;
+    width: 50px;
+    height: 30px;
+    margin-top: -33px;
+}
+.ss a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.ico{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+    margin-left: -30px;
+}
+.ico a{
+    color: black;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
 }
