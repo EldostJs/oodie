@@ -1,4 +1,4 @@
-My first project
+<h1>My first project</h1>
 Live link : https://eldostjs.github.io/oodie/
 <div align="left">
   <h3>:hammer_and_wrench: Tools :</h3>
